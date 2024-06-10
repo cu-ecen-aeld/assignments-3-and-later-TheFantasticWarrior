@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-2dc9b4555a37ddd404e27f30f25b011d /home/tfw/coding/class/linux/assignment-1-TheFantasticWarrior/assignment-autotest/test/assignment1/Test_hello_Runner.c
