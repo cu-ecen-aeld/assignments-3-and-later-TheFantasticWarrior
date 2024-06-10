@@ -1,3 +1,4 @@
+#!/bin/bash
 if [[ ! -d $1 || ! $2 ]] ; then
     exit 1
 fi
