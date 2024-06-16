@@ -22,7 +22,5 @@ jobs:
           - uses: actions/checkout@v2
           - name: Checkout submodules
             run : git submodule update --init --recursive
-          - name: set ulimit
-            run : ulimit -n 1024
           - name: Run full test
-            run: ./full-test.sh
+            run : ulimit -n 1024&&./full-test.sh
